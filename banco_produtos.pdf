@@ -1,0 +1,8 @@
+CREATE DATABASE produtos;
+USE produtos;
+CREATE TABLE tabelaprodutos (
+    codigo_produto INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL,
+    descricao TEXT NOT NULL,
+    preco decimal(10,2) NOT NULL
+);
