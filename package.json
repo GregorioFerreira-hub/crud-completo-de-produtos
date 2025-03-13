@@ -1,0 +1,24 @@
+{
+  "name": "crud-completo-de-produtos",
+  "version": "1.0.0",
+  "description": "Este repositório contém um crud completo para produtos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GregorioFerreira-hub/crud-completo-de-produtos.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/GregorioFerreira-hub/crud-completo-de-produtos/issues"
+  },
+  "homepage": "https://github.com/GregorioFerreira-hub/crud-completo-de-produtos#readme",
+  "dependencies": {
+    "tailwindcss": "^4.0.14"
+  }
+}

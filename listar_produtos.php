@@ -1,3 +1,12 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title></title>
+</head>
+<body>
 <?php
 // Configurações do banco de dados
 $servername = "localhost";
@@ -14,7 +23,7 @@ if ($conn->connect_error) {
 $sql = "SELECT codigo_produto, nome, descricao, preco FROM tabelaprodutos";
 $result = $conn->query($sql);
 if ($result->num_rows > 0) {
-    echo "<h1>Lista de Produtos</h1>";
+    echo "<h1 >Lista de Produtos</h1>";
     echo "<table border='1'>";
     echo "<tr><th>Código</th><th>Nome</th><th>Descrição</th><th>Preço</th><th>Ações</th></tr>";
     // Exibir cada contacto
@@ -38,4 +47,7 @@ if ($result->num_rows > 0) {
 $conn->close();
 ?>
 <br>
-<a href="index.php">Adicionar Novo Produto</a>
+<a href="index.php" >Adicionar Novo Produto</a>
+
+</body>
+</html>
