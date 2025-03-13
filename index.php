@@ -17,6 +17,6 @@
         <input type="submit" value="Adicionar">
     </form>
     <br>
-    <a href="listar_contactos.php">Ver Lista de Contactos</a>
+    <a href="listar_produtos.php">Ver Lista de Produtos</a>
 </body>
 </html>
